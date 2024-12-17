@@ -1,0 +1,32 @@
+body {
+  background-color: #000; 
+  font-family: 'Poppins', sans-serif; 
+  
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.heading {
+  margin-top: 1rem;;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: var(--black);
+  text-transform: capitalize;
+  padding-left: 1rem;
+  border-left: 0.6rem solid black;
+  font-weight: bold;
+  
+}
+
+
+
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
